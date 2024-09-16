@@ -55,7 +55,7 @@ recursos e os 5 maiores tipos de despesa.
 
 - [Script SQL](scripts_sql/union.sql)
   
-![model](imagens/union_sql.png)
+![model](imagens/union.png)
 
 ### Contrução do painel para visualizar os dados e responder as questões propostas pelo teste.
 
