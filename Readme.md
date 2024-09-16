@@ -1,6 +1,6 @@
 ## Teste de engenharia de dados.
 
-### O teste consiste em desenvolver um processo de ETL para processar arquivos CSV e armazenar os dados em um banco de dados.
+### O teste consiste em desenvolver um processo de ETL para processar arquivos CSV e armazenar os dados em um banco de dados junto a uma construção de um painel em alguma ferramenta de dataviz.
 
 ### Arquivos para o teste:
 - [gdvReceitasExcel.csv](docs/gdvReceitasExcel.csv)
@@ -37,7 +37,7 @@ recursos e os 5 maiores tipos de despesa.
 ### Criando chave json e realizando o download:
 ![model](imagens/chave_json.png)
 
-## Segunda etapa, script para tratar os dados nos arquivos csv e realizar o envio ao BigQuery:
+## Segunda etapa, script para tratar os dados dos arquivos csv e realizar o envio ao BigQuery:
 
 - [Script Python](scripts_python/esfera_v0.ipynb)
 
@@ -51,9 +51,14 @@ recursos e os 5 maiores tipos de despesa.
 #### Tabela despesa:
 ![model](imagens/despesa.png)
 
-### Query que junta as duas tabelas e faz criação de uma view: 
+### Query para juntar as duas tabelas e fazer a view no bigquer: 
 
-[Query para unificar as tabelas](D:\projetos_python\teste_esfera\imagens\union_sql.png)
+- [Script SQL](scripts_sql/union.sql)
+  
 ![model](imagens/union_sql.png)
 
-### Teste finalizado.#
+### Contrução do painel para visualizar os dados e responder as questões propostas pelo teste.
+
+[Acesse o relatório do Looker Studio aqui](https://lookerstudio.google.com/reporting/4aebb778-9b85-46cd-90fb-fdc917af188c)
+
+### Teste finalizado.
